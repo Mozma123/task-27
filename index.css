@@ -1,0 +1,89 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  color: rgb(19, 18, 18);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px; /* Adjusted font size for header text */
+  /* border-bottom: 2px solid #ddd;  */
+  /* Optional: Add a border to the bottom of the header for visual separation */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em; /* Adjusted to ensure header text size is appropriate */
+}
+
+header p {
+  margin: 0;
+}
+
+/* Render Count Styles */
+header .render-count {
+  font-size: 1.2em !important; /* Enforce font size for render count */
+  color: #f9f9f9 !important; /* Light color for text */
+  padding: 10px;
+  border: 2px solid #f9f9f9 !important; /* Add border to render count */
+  border-radius: 4px;
+  background-color: #333 !important; /* Dark background for contrast */
+  margin-left: 20px; /* Space between other header content and render count */
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px; /* Increased form width for a more spacious look */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px; /* Rounded corners for a polished look */
+  background-color: #f9f9f9; /* Light background color for form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+form div {
+  margin-bottom: 20px; /* Increased space between form fields */
+}
+
+form input[type="text"] {
+  width: 400px; /* Full width to fit the form container */
+  height: 130px; /* Increased height for better usability */
+  padding: 12px; /* Added padding for better text visibility */
+  border: 2px solid #ccc; /* Change the border color */
+  border-radius: 8px; /* Rounded corners for input fields */
+  font-size: 1em; /* Adjust font size for input text */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+form input[type="text"]::placeholder {
+  width: 300px;
+  font-size: 40px; /* Increase placeholder text size */
+  color: #888; /* Light color for placeholder text */
+}
+
+form input[type="submit"] {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners for submit button */
+  cursor: pointer;
+  font-size: 1.1em; /* Slightly larger font size for the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
